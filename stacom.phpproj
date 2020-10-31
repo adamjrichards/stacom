@@ -1,0 +1,83 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>stacom</Name>
+    <ProjectGuid>{de713f28-2ae0-47c6-adb8-345d46c58df4}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="assets\icons\stacom_favicon_2.2 x128_y128.png" />
+    <Compile Include="assets\icons\stacom_favicon_2.2 x64y64.png" />
+    <Compile Include="assets\icons\stacom_favicon_2.2_x1024y1024.png" />
+    <Compile Include="assets\icons\stacom_favicon_2.2_x256y256.png" />
+    <Compile Include="assets\icons\stacom_favicon_2.2_x512y512.png" />
+    <Compile Include="assets\images\andreacharendoff.com_screenshot_1_x500y367.jpg" />
+    <Compile Include="assets\images\canadianarttherapy.org_screenshot_2_x500y514r96q75_2016-06-26.1.jpg" />
+    <Compile Include="assets\images\linkedin.com_screenshot_2_x500y512r96q75_2106-06-26.1.jpg" />
+    <Compile Include="assets\images\psychologytoday.com_screenshot_1_x500y461q75_2016-09-21.1.jpg" />
+    <Compile Include="assets\images\psychologytoday.com_screenshot_1_x500y461_2016-09-21.png" />
+    <Compile Include="assets\images\speaking_through_art_4_x1200y100.png" />
+    <Compile Include="assets\images\speaking_through_art_5_x950y80.png" />
+    <Compile Include="assets\images\sta_background_left_1_x400y887.jpg" />
+    <Compile Include="assets\images\sta_background_right_1_x431y887.jpg" />
+    <Compile Include="assets\images\sta_painting_10_x300y400.jpg" />
+    <Compile Include="assets\images\sta_painting_10_x600y800.jpg" />
+    <Compile Include="assets\images\sta_painting_11_x275y400.jpg" />
+    <Compile Include="assets\images\sta_painting_11_x550y800.jpg" />
+    <Compile Include="assets\images\sta_painting_12_x400y313.jpg" />
+    <Compile Include="assets\images\sta_painting_12_x625y800.jpg" />
+    <Compile Include="assets\images\sta_painting_12_x800y625.jpg" />
+    <Compile Include="assets\images\sta_painting_1_x400y300.jpg" />
+    <Compile Include="assets\images\sta_painting_1_x800y600.jpg" />
+    <Compile Include="assets\images\sta_painting_2_x400y300.jpg" />
+    <Compile Include="assets\images\sta_painting_2_x800y600.jpg" />
+    <Compile Include="assets\images\sta_painting_3_x400y313.jpg" />
+    <Compile Include="assets\images\sta_painting_3_x800y625.jpg" />
+    <Compile Include="assets\images\sta_painting_4_x300y400.jpg" />
+    <Compile Include="assets\images\sta_painting_4_x600y800.jpg" />
+    <Compile Include="assets\images\sta_painting_5_x300y375.jpg" />
+    <Compile Include="assets\images\sta_painting_5_x600y750.jpg" />
+    <Compile Include="assets\images\sta_painting_6_x400y288.jpg" />
+    <Compile Include="assets\images\sta_painting_6_x800y575.jpg" />
+    <Compile Include="assets\images\sta_painting_7_x400y400.jpg" />
+    <Compile Include="assets\images\sta_painting_7_x800y800.jpg" />
+    <Compile Include="assets\images\sta_painting_8_x300y400.jpg" />
+    <Compile Include="assets\images\sta_painting_8_x600y800.jpg" />
+    <Compile Include="assets\images\sta_painting_9_x300y400.jpg" />
+    <Compile Include="assets\images\sta_painting_9_x600y800.jpg" />
+    <Compile Include="assets\images\sta_photo_andrea_1_x300y363.jpg" />
+    <Compile Include="assets\images\sta_photo_andrea_2_x300y363r72.jpg" />
+    <Compile Include="assets\images\therapytoronto.ca_screenshot_2_x500y449r96q75_2016-06-26.1.jpg" />
+    <Compile Include="assets\images\Thumbs.db" />
+    <Compile Include="css\sta_main_2.1.css" />
+    <Compile Include="pages\sta_about_andrea_2.1.php" />
+    <Compile Include="pages\sta_body_tag.php" />
+    <Compile Include="pages\sta_contact_email_processing_1.1.1.php" />
+    <Compile Include="pages\sta_contact_me_2.1.php" />
+    <Compile Include="pages\sta_faq_2.1.php" />
+    <Compile Include="pages\sta_footer_tag.php" />
+    <Compile Include="pages\sta_head_tag.php" />
+    <Compile Include="pages\sta_philosophy_2.1.php" />
+    <Compile Include="pages\sta_services_2.1.php" />
+    <Compile Include="pages\sta_session_2.1.php" />
+    <Compile Include="pages\sta_therapist_2.1.php" />
+    <Compile Include="favicon.ico" />
+    <Compile Include="sta_index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\icons" />
+    <Folder Include="assets\images" />
+    <Folder Include="assets" />
+    <Folder Include="css" />
+    <Folder Include="pages" />
+  </ItemGroup>
+</Project>
